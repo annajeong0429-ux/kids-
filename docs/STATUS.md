@@ -1,12 +1,12 @@
 # 진행 상태 (STATUS.md)
 
-최종 갱신: 2026-10-01
+최종 갱신: 2026-10-02
 
 | 항목 | 내용 |
 |---|---|
-| 현재 Phase | Phase 1 — PRD |
-| 상태 | ⏸ **팀장 승인 대기** (`docs/07_reports/phase-1_report.md`) |
-| 다음 Phase | 팀장 결정 1에 따라: Phase C 대회 분석 준비(추천) / Phase 2 웹앱 기획(11/9~) |
+| 현재 Phase | Phase C — 대회 분석 코드 준비 (D-21) |
+| 상태 | ⏸ **계획서 승인 대기** (`docs/04_analysis/phase-C_plan.md`, 질문 C-Q1~C-Q9) |
+| 다음 Phase | Phase 2 기획 (화면 구성 → 홈 화면 프론트) — 시작 시점은 C-Q1 |
 
 ## 본선 주요 일정
 | 일정 | 내용 |
@@ -17,13 +17,12 @@
 
 ## 완료
 - Phase 0: 저장소·브랜치·ruleset·deny 규칙·에이전트 5종·Codex 연동 (PR #1, #2 Merge)
-- Phase 1: PRD v0.3.3, 테스트 1차+재검사, Codex 교차 검토(1건 수용), 회의, 보고서
+- Phase 1: PRD v0.3.3, 테스트 1차+재검사, Codex 교차 검토(1건 수용), 회의, 보고서 — **승인 (PR #3 Merge, D-21)**
 
 ## 대기 중 (팀장)
-- Phase 1 보고서 승인 + PR #3 Merge
-- 보고서 5장 결정 1(11/6까지 작업 방식)·결정 2(Codex 검토 방식)
-- PQ-10 안심존 확인 (예정)
-- 그 외 PQ: 보고서 5장 결정 3·4
+- Phase C 계획서 승인 + C-Q1~C-Q9 답변
+- 안심존 방문 시 계획서 4장 확인 항목 (PQ-10 확장)
+- PRD PQ-06·07 (대회), 웹앱 PQ는 Phase C 이후 (D-23)
 
 ## 열려 있는 PR
-- [#3](https://github.com/annajeong0429-ux/kids-/pull/3) `docs/phase1-prd` → `develop` (PRD, 테스트·Codex 리포트, 회의록, 보고서) — CI 미구성
+- `docs/phase-c-kickoff` → `develop` (CLAUDE.md Phase C·Codex 규칙, D-21~23, 데이터 설명서 요약, Phase C 계획서)
