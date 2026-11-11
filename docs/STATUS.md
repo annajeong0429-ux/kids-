@@ -5,7 +5,7 @@
 | 항목 | 내용 |
 |---|---|
 | 현재 Phase | **Phase R — 아토피 공개 데이터 조사** (D-25) |
-| 상태 | 🔄 진행 중 |
+| 상태 | ⏸ **팀장 승인 대기** (`docs/07_reports/phase-R_report.md` 결정 1~4, 조사 문서 RQ-01~RQ-12) |
 | 다음 Phase | Phase M — 모델 재구현 계획서 (Google Colab, D-26) — Phase R 승인 후 |
 
 ## 재시작 배경 (2026-11-11)
@@ -19,7 +19,8 @@
 - Phase C: ⛔ 중단 (D-24) — 계획서는 닫힌 PR #4에 참고용으로 남김
 
 ## 대기 중 (팀장)
-- 없음 (Phase R 진행 중)
+- Phase R 승인 + 보고서 5장 결정 1~4
+- 외부 연락은 팀장 명의: PASSION 신청, SWET·Legit.Health 문의 (RQ-02~04)
 
 ## 열려 있는 PR
-- `docs/restart-phase-r` → `develop` (재시작 결정 D-24~D-27, Phase R 데이터 조사) — 생성 예정
+- `docs/restart-phase-r` → `develop` (재시작 결정 D-24~D-27, Phase R 데이터 조사) — Merge 대기
