@@ -1,29 +1,26 @@
 # 진행 상태 (STATUS.md)
 
-최종 갱신: 2026-10-01
+최종 갱신: 2026-11-11
 
 | 항목 | 내용 |
 |---|---|
-| 현재 Phase | Phase 1 — PRD |
-| 상태 | ⏸ **팀장 승인 대기** (`docs/07_reports/phase-1_report.md`) |
-| 다음 Phase | 팀장 결정 1에 따라: Phase C 대회 분석 준비(추천) / Phase 2 웹앱 기획(11/9~) |
+| 현재 Phase | **Phase R — 아토피 공개 데이터 조사** (D-25) |
+| 상태 | ⏸ **팀장 승인 대기** (`docs/07_reports/phase-R_report.md` 결정 1~4, 조사 문서 RQ-01~RQ-12) |
+| 다음 Phase | Phase M — 모델 재구현 계획서 (Google Colab, D-26) — Phase R 승인 후 |
 
-## 본선 주요 일정
-| 일정 | 내용 |
-|---|---|
-| 10/16(금) 목표 · 10/23(금) 한계선 | 안심존 분석 결과물 **반출 신청** (D-17) |
-| 11/6(금) 16:00 | 데이터 시각화 결과보고서 · 발표자료 제출 |
-| 상시 | 안심존 방문 + 증빙자료 확보 (7회 이상 = 방문 점수 만점) |
+## 재시작 배경 (2026-11-11)
+- 본선(11/6) 미제출로 대회 트랙 중단 (D-24). Phase C 중단, PR #4 닫음.
+- 새 목표: 공개 데이터로 소아 아토피 병변 분할·정량화 모델 재구현, 학습 목적 (D-25). 웹앱은 보류.
+- 작업 방식은 CLAUDE.md 사이클 유지 (D-27).
 
 ## 완료
 - Phase 0: 저장소·브랜치·ruleset·deny 규칙·에이전트 5종·Codex 연동 (PR #1, #2 Merge)
-- Phase 1: PRD v0.3.3, 테스트 1차+재검사, Codex 교차 검토(1건 수용), 회의, 보고서
+- Phase 1: PRD v0.3.3 — 승인 (PR #3 Merge, D-21)
+- Phase C: ⛔ 중단 (D-24) — 계획서는 닫힌 PR #4에 참고용으로 남김
 
 ## 대기 중 (팀장)
-- Phase 1 보고서 승인 + PR #3 Merge
-- 보고서 5장 결정 1(11/6까지 작업 방식)·결정 2(Codex 검토 방식)
-- PQ-10 안심존 확인 (예정)
-- 그 외 PQ: 보고서 5장 결정 3·4
+- Phase R 승인 + 보고서 5장 결정 1~4
+- 외부 연락은 팀장 명의: PASSION 신청, SWET·Legit.Health 문의 (RQ-02~04)
 
 ## 열려 있는 PR
-- [#3](https://github.com/annajeong0429-ux/kids-/pull/3) `docs/phase1-prd` → `develop` (PRD, 테스트·Codex 리포트, 회의록, 보고서) — CI 미구성
+- `docs/restart-phase-r` → `develop` (재시작 결정 D-24~D-27, Phase R 데이터 조사) — Merge 대기
